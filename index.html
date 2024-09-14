@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolios</title>
+    <style>
+        body{
+            background: linear-gradient(to top, #3C3C52, #152D40, #263341, #001F3F, #ffffff, #001F3F);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!--Line 12 to line 36 Header section-->
+    <header class="header"> 
+        <a href="#" class="logo"><span>Levi Chen</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">Home</a>
+            </li>
+            
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#experience">About</a>
+            </li>
+            
+            <!--<li>
+                <a href="#contact">Contact</a>
+            </li>-->
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://www.linkedin.com/in/shizhong-chen-616b55241/"><button class="visit-btn">Let's Connect</button></a>
+    </header>
+
+    <!--About Section-->
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="img/image1.png" alt="">
+
+            <div class="info-box">
+
+                <!--Intro text-->
+                <div class="text" style="color: white;">
+                    <h3>Hi, I'm</h3>
+                    <h1>Shi Zhong | Levi</h1>
+                    <span>Data Analyst</span>
+                </div>
+
+                <!--CV & contact button groups-->
+                <!--<div class="btn-group" style="color: white;">
+                    <div class="btn" >Download CV</div>
+                    <div class="btn">Contact</div>
+                </div>-->
+
+                <!--Social -->
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/shizhong-chen-616b55241/"><i class="fa-brands fa-linkedin" style="color: white;"></i></a>
+                    <a href="https://github.com/Leviiest"><i class="fa-brands fa-github" style="color: white;"></i></a>
+                    <a href="https://public.tableau.com/app/profile/shizhong.chen/vizzes"><i class="fa-brands fa-salesforce" style="color: white;"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Project Section-->
+    <section id="projects" class="projects">
+
+        <h2 class="section-title" style="color: white;">Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <span class="date">August 2024</span> 
+                <img src="img/Project-1.jpg" alt="">
+                <h3>Data Cleaning <br> with MySQL</h3>
+                <p>Data Cleaning via MySQL Workbench <br>to clean and preprocess raw datasets.</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="https://github.com/Leviiest/Project_Portfolio/blob/main/Layoffs%20Data%20Cleaning%20Project.sql">View Project</a></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="date">July 2024</span> 
+                <img src="img/Project-3.png" alt="">
+                <h3>Air Quality <br>Statistical Analysis</h3>
+                <p>Statistical analysis on Air Quality Index <br>between Upstate NY and NYC.</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="https://github.com/Leviiest/Project_Portfolio/blob/main/Air%20Quality%20Hypothesis%20Analysis.ipynb">View Project</a></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="date">June 2024</span> 
+                <img src="img/Project-2.png" alt="">
+                <h3>Citi-Bike <br>Time Series Analysis</h3>
+                <p>Time Series analysis over three years of data <br>on Citi-Bike's biking service.</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="https://github.com/Leviiest/Project_Portfolio/blob/main/Citibike%20Time%20Series%20Analysis.ipynb">View Project</a></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="date">June 2024</span> 
+                <img src="img/Project-4.png" alt="">
+                <h3>Employee Turnover <br>Classification Model</h3>
+                <p>Identify KPI in attrition rate and develope models <br>for predict employee turnover of a company.</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="https://github.com/Leviiest/Project_Portfolio/blob/main/Employee%20Turnover%20Classification%20Model.ipynb">View Project</a></div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <span class="date">September 2024</span> 
+                <img src="img/Project-5.png" alt="">
+                <h3>Dashboard <br>Project</h3>
+                <p><br>Coming Soon...</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="#">Come Back Later</a></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Experience Section-->
+    <section id="experience" class="experience">
+
+        <h2 class="section-title" style="color: white;">About</h2>
+
+        <div class="experience-info">
+            
+            <div class="grid">
+
+                <div class="grid-card"> 
+                    <span>About Me</span>
+                    <br>
+                    <p>
+                        Hi there! <br>I'm Levi from NYC. An entry-level data analytics professional; recently completed the Google's Advance Data Analytics
+                        Certificate and a certified Tableau Desktop Specialist.</p> 
+                    <br>
+                    <p>Excellent understanding and proficiency of platforms for effective data analyses, including Python, 
+                        SQL, Sheets, Excel, and Tableau. Strong communication, organizational, and analytics skills.
+                    </p>   
+                </div>
+
+                <div class="grid-card"> 
+                    <span>Techincal Skills</span>
+                    <br>
+                    <h3>Python</h3>
+                    <p>Pandas | NumPy | Sklearn | SciPy | Matplotlib | Seaborn </p>
+                    <p>Plotly |</p>
+                    <br>
+                    <h3>SQL</h3>
+                    <p> MySQL | SQLite3 | CTE | EDA </p>  
+                    <br>
+                    <h3>Tableau</h3>
+                    <p> ETL | Data Viz | Pivot | Dashboard | Story  </p>   
+                </div>
+
+                <div class="grid-card"> 
+                    <span>Education & Certification</span>
+                    <br>
+                    <h3>Tableau Desktop Specialist</h3>
+                    <p>Certificate | June, 2024 </p>
+                    <br>
+                    <h3>Google's Advance Data Analytics</h3>
+                    <p>Certificate | July, 2023 </p>
+                    <br>
+                    <h3>SUNY at Binghamton</h3>
+                    <p>BA. Economics | June, 2022 </p>
+                </div>
+
+                <div class="grid-card"> 
+                    <span>Experience</span>
+                    <br>
+                    <h3>Medical City Healthcare</h3>
+                    <p><em>Sep 2023 - Mar 2024</em></p>
+                    <p>Data Entry Assistant | 7 Months | Dallas, TX</p>
+                    <br>
+                    <h3>MUJI USA</h3>
+                    <p><em>Jul 2022 - Mar 2023</em></p>
+                    <p>Sales Associate | 9 Months | New York, NY</p>   
+                </div>
+
+            </div>
+
+            <img src="img/image3.jpg" alt="">
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <!--<section class="contact" id="contact">
+        <div class="input-box">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <input type="text" placeholder="example@email.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="btn">Submit</div>
+        </div>
+    </section>-->
+
+    <!--Footer-->
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about" style="color: white;">Home</a>
+            </li>
+
+            <li>
+                <a href="#projects" style="color: white;">Projects</a>
+            </li>
+
+            <li>
+                <a href="#experience" style="color: white;">About</a>
+            </li>
+
+        </ul>
+
+        <p class="copyright" style="color: white;">© All Rights Reserved | Levi Chen</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
